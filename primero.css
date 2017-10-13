@@ -1,0 +1,21 @@
+/* Se realiza para evitar repeticiones de código DRY!!*/
+.yellow, .gray{
+	height: 100px;
+	margin: 10px;
+	padding: 10px;	
+}
+
+.yellow	{
+	/*height: 100px;
+	margin: 10px;*/
+	background-color: #FEA409; /*yellow*/;
+	/*padding: 10px;*/
+
+}
+.gray	{
+	/*height: 100px;
+	margin: 10px;*/
+	background-color: #595256;
+	color: white; /* #FFF es lo mismo que blanco o white*/
+	/*padding: 10px;*/	
+}
